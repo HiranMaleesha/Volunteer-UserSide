@@ -1,0 +1,100 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  .header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3B82F6;
+    padding-bottom: 10px;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .subHeader {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .text {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* List styles */
+  .list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.125rem;
+    color: #444;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery styles */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    text-align: center;
+    display: block;
+    margin: 20px auto 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2563EB;
+    transform: translateY(-2px);
+  }
+  
